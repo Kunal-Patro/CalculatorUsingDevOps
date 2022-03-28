@@ -1,0 +1,7 @@
+---
+- name: Test connectivity to target servers
+  hosts: ubuntu20.04
+  remote_user: joru
+  tasks:
+          - name: Ping Test
+            ping:
